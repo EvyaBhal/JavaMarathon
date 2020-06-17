@@ -1,0 +1,3 @@
+- add questions 1-7 with code segments to QUESTION.DOC
+- add more questions (prefferably 8-16) - CHECK SUBJECTS - no decoration, no streams.
+- divide questions to Day1 and Day2
