@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class GuiTest extends JFrame implements ActionListener{
+class GuiTest extends JFrame {//implements ActionListener{
     private JTextField text;
     private JButton start;
     private JButton stop;
@@ -24,8 +24,8 @@ class GuiTest extends JFrame implements ActionListener{
         stop = new JButton("Stop");
         stop.setEnabled(false);
 
-        start.addActionListener(this);
-        stop.addActionListener(this);
+        //start.addActionListener(this);
+        //stop.addActionListener(this);
         panel.add(start);
         panel.add(stop);
 
@@ -40,32 +40,32 @@ class GuiTest extends JFrame implements ActionListener{
         new GuiTest();
     }
 
-    @Override
-    public void actionPerformed(ActionEvent actionEvent) {
-        if (actionEvent.getSource() == start) {
-            t = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    for (int i=Integer.valueOf(text.getText()); i<10; i++) {
-                        try {
-                            Thread.sleep(100);
-                        } catch (InterruptedException e) {
-                            return;
-                        }
-                        text.setText(Integer.toString(i+1));
-                    }
-                    text.setText("0");
-                    stop.setEnabled(false);
-                    start.setEnabled(true);
-                }
-            });
-            stop.setEnabled(true);
-            start.setEnabled(false);
-            t.start();
-        } else {
-            t.interrupt();
-            stop.setEnabled(false);
-            start.setEnabled(true);
-        }
-    }
+//    @Override
+//    public void actionPerformed(ActionEvent actionEvent) {
+//        if (actionEvent.getSource() == start) {
+//            t = new Thread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    for (int i=Integer.valueOf(text.getText()); i<10; i++) {
+//                        try {
+//                            Thread.sleep(100);
+//                        } catch (InterruptedException e) {
+//                            return;
+//                        }
+//                        text.setText(Integer.toString(i+1));
+//                    }
+//                    text.setText("0");
+//                    stop.setEnabled(false);
+//                    start.setEnabled(true);
+//                }
+//            });
+//            stop.setEnabled(true);
+//            start.setEnabled(false);
+//            t.start();
+//        } else {
+//            t.interrupt();
+//            stop.setEnabled(false);
+//            start.setEnabled(true);
+//        }
+//    }
 }
