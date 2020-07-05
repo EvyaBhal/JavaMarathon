@@ -3,4 +3,4 @@ Intro to OOP, Spring 2020, Tel Hai academic
 
 
 questions can be found in file S20_JavaMarathon.pdf .
-(- maybe publish to studentsvia Moodle?)
+(- maybe publish to students via Moodle?)
