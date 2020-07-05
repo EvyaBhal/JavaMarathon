@@ -1,3 +1,7 @@
+/**Spring 2020
+ * Java Marathon
+ * Evyatar Bhalker
+ */
 package ten;
 
 import java.util.Queue;

@@ -1,3 +1,7 @@
+/**Spring 2020
+ * Java Marathon
+ * Evyatar Bhalker
+ */
 package twelve;
 
 import java.util.Iterator;
