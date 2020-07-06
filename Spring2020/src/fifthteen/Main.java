@@ -20,4 +20,10 @@ public class Main {
         System.out.println(y[0]);
         System.out.println(z[0]);
     }
+    /**
+     * output: 111
+     *         2
+     *         666
+     *         \,,/
+     */
 }

@@ -15,7 +15,7 @@ public class A {
         System.out.println("Obj a");
     }
 
-    public static void printAll(List<? extends A> list){
+    public static void printAll(List< A> list){
         System.out.println("begin list:");
         for (A a:list){
             a.print();

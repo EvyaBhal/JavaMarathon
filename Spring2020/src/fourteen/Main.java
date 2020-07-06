@@ -36,9 +36,15 @@ class C extends B {
         C q7 = new C();
         System.out.println( q7.p );
 
-        System.out.println( C.j ); //this is an error
+        //System.out.println( C.j ); //this is an error
 
     }
+    /**
+     * output (if changed to static):16
+     *                               19
+     *                               4
+     *                               0
+     */
 }
 
 

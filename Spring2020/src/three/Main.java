@@ -34,3 +34,9 @@ public class Main {
         s.push("9999");
     }
 }
+/**
+ * Output: 1
+ *         2222
+ *         6
+ *         9999
+ */
