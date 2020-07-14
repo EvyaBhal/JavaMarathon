@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class GuiTest extends JFrame {//implements ActionListener{
+class GuiTest extends JFrame { //implements ActionListener{
     private JTextField text;
     private JButton start;
     private JButton stop;
@@ -43,7 +43,8 @@ class GuiTest extends JFrame {//implements ActionListener{
     public static void main(String args[]) {
         new GuiTest();
     }
-
+}
+//
 //    @Override
 //    public void actionPerformed(ActionEvent actionEvent) {
 //        if (actionEvent.getSource() == start) {
@@ -58,7 +59,7 @@ class GuiTest extends JFrame {//implements ActionListener{
 //                        }
 //                        text.setText(Integer.toString(i+1));
 //                    }
-//                    text.setText("0");
+//                   text.setText("0");
 //                    stop.setEnabled(false);
 //                    start.setEnabled(true);
 //                }
@@ -72,4 +73,4 @@ class GuiTest extends JFrame {//implements ActionListener{
 //            start.setEnabled(true);
 //        }
 //    }
-}
+//}

@@ -24,6 +24,6 @@ public class Main {
      * output: 111
      *         2
      *         666
-     *         \,,/
+     *         \,,/וגם ל15
      */
 }

@@ -38,5 +38,5 @@ class Abcde extends Thread {
     public static void main(String[] args) {
         new Abcde().start();
     }
-    //either A and wait forever or A D E
+    //?either A and wait forever or A D E
 }
